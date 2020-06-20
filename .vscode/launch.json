@@ -12,13 +12,19 @@
             "webRoot": "${workspaceFolder}"
         },
         {
+            "name": "Launch via yarn",
             "type": "pwa-node",
             "request": "launch",
-            "name": "yarn start",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "program": "${file}"
+        }
+    ],
+    "compounds": [
+        {
+          "name": "Full-stack",
+          "configurations": ["Launch via yarn", "Launch Chrome"]
         }
     ]
 }
