@@ -1,9 +1,0 @@
-name: "guineafowl"
-lint: {
-	globals: []
-	ignore: [
-		"tsconfig.json"
-		".vscode/"
-]
-}
-root: true

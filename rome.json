@@ -1,0 +1,9 @@
+{
+	"root": true,
+	"name": "guineafowl",
+	"format": {
+		"enabled": true,
+		"indentSize": 2,
+		"indentStyle": "space"
+	}
+}
